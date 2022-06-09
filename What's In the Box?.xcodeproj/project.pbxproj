@@ -11,6 +11,14 @@
 		A6447B40283F084D00B4AE1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6447B3F283F084D00B4AE1B /* ContentView.swift */; };
 		A6447B42283F085100B4AE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6447B41283F085100B4AE1B /* Assets.xcassets */; };
 		A6447B45283F085100B4AE1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6447B44283F085100B4AE1B /* Preview Assets.xcassets */; };
+		A6447B4D283F1AEF00B4AE1B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A6447B4C283F1AEF00B4AE1B /* FirebaseAuth */; };
+		A6447B50283F1B7300B4AE1B /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = A6447B4F283F1B7300B4AE1B /* GoogleSignIn */; };
+		A6447B52283F1CCF00B4AE1B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6447B51283F1CCF00B4AE1B /* GoogleService-Info.plist */; };
+		A6447B56283F218200B4AE1B /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6447B55283F218200B4AE1B /* LoginPage.swift */; };
+		A6447B5B2841AA4400B4AE1B /* CameraPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6447B5A2841AA4400B4AE1B /* CameraPage.swift */; };
+		A6447B5D28446F3600B4AE1B /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6447B5C28446F3500B4AE1B /* ImagePicker.swift */; };
+		A6447B5F284EF45200B4AE1B /* client_315977733569-bhrn1k9pguf6g6tsje0kkad4qm7dsf0a.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6447B5E284EF44E00B4AE1B /* client_315977733569-bhrn1k9pguf6g6tsje0kkad4qm7dsf0a.apps.googleusercontent.com.plist */; };
+		A6447B64284EFA4300B4AE1B /* GoogleAPIClientForRESTCore in Frameworks */ = {isa = PBXBuildFile; productRef = A6447B63284EFA4300B4AE1B /* GoogleAPIClientForRESTCore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		A6447B3F283F084D00B4AE1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A6447B41283F085100B4AE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6447B44283F085100B4AE1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6447B51283F1CCF00B4AE1B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A6447B53283F1D0F00B4AE1B /* What-s-In-the-Box--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "What-s-In-the-Box--Info.plist"; sourceTree = SOURCE_ROOT; };
+		A6447B55283F218200B4AE1B /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		A6447B57283F3AEF00B4AE1B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A6447B5A2841AA4400B4AE1B /* CameraPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPage.swift; sourceTree = "<group>"; };
+		A6447B5C28446F3500B4AE1B /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		A6447B5E284EF44E00B4AE1B /* client_315977733569-bhrn1k9pguf6g6tsje0kkad4qm7dsf0a.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_315977733569-bhrn1k9pguf6g6tsje0kkad4qm7dsf0a.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+		A6447B65284EFE1300B4AE1B /* DrivePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivePage.swift; sourceTree = "<group>"; wrapsLines = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +42,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6447B4D283F1AEF00B4AE1B /* FirebaseAuth in Frameworks */,
+				A6447B64284EFA4300B4AE1B /* GoogleAPIClientForRESTCore in Frameworks */,
+				A6447B50283F1B7300B4AE1B /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +54,9 @@
 		A6447B31283F084D00B4AE1B = {
 			isa = PBXGroup;
 			children = (
+				A6447B5E284EF44E00B4AE1B /* client_315977733569-bhrn1k9pguf6g6tsje0kkad4qm7dsf0a.apps.googleusercontent.com.plist */,
+				A6447B57283F3AEF00B4AE1B /* README.md */,
+				A6447B51283F1CCF00B4AE1B /* GoogleService-Info.plist */,
 				A6447B3C283F084D00B4AE1B /* What's In the Box? */,
 				A6447B3B283F084D00B4AE1B /* Products */,
 			);
@@ -51,10 +73,13 @@
 		A6447B3C283F084D00B4AE1B /* What's In the Box? */ = {
 			isa = PBXGroup;
 			children = (
+				A6447B54283F216F00B4AE1B /* View */,
+				A6447B53283F1D0F00B4AE1B /* What-s-In-the-Box--Info.plist */,
 				A6447B3D283F084D00B4AE1B /* What_s_In_the_Box_App.swift */,
 				A6447B3F283F084D00B4AE1B /* ContentView.swift */,
 				A6447B41283F085100B4AE1B /* Assets.xcassets */,
 				A6447B43283F085100B4AE1B /* Preview Content */,
+				A6447B5C28446F3500B4AE1B /* ImagePicker.swift */,
 			);
 			path = "What's In the Box?";
 			sourceTree = "<group>";
@@ -65,6 +90,16 @@
 				A6447B44283F085100B4AE1B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6447B54283F216F00B4AE1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A6447B55283F218200B4AE1B /* LoginPage.swift */,
+				A6447B5A2841AA4400B4AE1B /* CameraPage.swift */,
+				A6447B65284EFE1300B4AE1B /* DrivePage.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +118,11 @@
 			dependencies = (
 			);
 			name = "What's In the Box?";
+			packageProductDependencies = (
+				A6447B4C283F1AEF00B4AE1B /* FirebaseAuth */,
+				A6447B4F283F1B7300B4AE1B /* GoogleSignIn */,
+				A6447B63284EFA4300B4AE1B /* GoogleAPIClientForRESTCore */,
+			);
 			productName = "What's In the Box?";
 			productReference = A6447B3A283F084D00B4AE1B /* What's In the Box?.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +151,11 @@
 				Base,
 			);
 			mainGroup = A6447B31283F084D00B4AE1B;
+			packageReferences = (
+				A6447B4B283F1AEF00B4AE1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				A6447B4E283F1B7200B4AE1B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				A6447B62284EFA4300B4AE1B /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */,
+			);
 			productRefGroup = A6447B3B283F084D00B4AE1B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +172,8 @@
 			files = (
 				A6447B45283F085100B4AE1B /* Preview Assets.xcassets in Resources */,
 				A6447B42283F085100B4AE1B /* Assets.xcassets in Resources */,
+				A6447B52283F1CCF00B4AE1B /* GoogleService-Info.plist in Resources */,
+				A6447B5F284EF45200B4AE1B /* client_315977733569-bhrn1k9pguf6g6tsje0kkad4qm7dsf0a.apps.googleusercontent.com.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +185,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6447B40283F084D00B4AE1B /* ContentView.swift in Sources */,
+				A6447B5B2841AA4400B4AE1B /* CameraPage.swift in Sources */,
+				A6447B5D28446F3600B4AE1B /* ImagePicker.swift in Sources */,
+				A6447B56283F218200B4AE1B /* LoginPage.swift in Sources */,
 				A6447B3E283F084D00B4AE1B /* What_s_In_the_Box_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +322,7 @@
 				DEVELOPMENT_TEAM = S9726HV456;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "What-s-In-the-Box--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +352,7 @@
 				DEVELOPMENT_TEAM = S9726HV456;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "What-s-In-the-Box--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -341,6 +393,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A6447B4B283F1AEF00B4AE1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A6447B4E283F1B7200B4AE1B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A6447B62284EFA4300B4AE1B /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/google-api-objectivec-client-for-rest.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A6447B4C283F1AEF00B4AE1B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6447B4B283F1AEF00B4AE1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A6447B4F283F1B7300B4AE1B /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6447B4E283F1B7200B4AE1B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		A6447B63284EFA4300B4AE1B /* GoogleAPIClientForRESTCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6447B62284EFA4300B4AE1B /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForRESTCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A6447B32283F084D00B4AE1B /* Project object */;
 }

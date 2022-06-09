@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>35597763071-jkm28ensjodod7r6ftef0rh1hv8h1duf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.35597763071-jkm28ensjodod7r6ftef0rh1hv8h1duf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD4LdaIF6f5B6X2_Hwd_65p4Q5xhK_mWds</string>
+	<key>GCM_SENDER_ID</key>
+	<string>35597763071</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Lou.What-s-In-the-Box-</string>
+	<key>PROJECT_ID</key>
+	<string>whatsinthebox-df023</string>
+	<key>STORAGE_BUCKET</key>
+	<string>whatsinthebox-df023.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:35597763071:ios:50414b06c3b6eee0b727ca</string>
+</dict>
+</plist>
