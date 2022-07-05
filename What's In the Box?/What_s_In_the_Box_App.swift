@@ -32,8 +32,8 @@ class AppDelegate: NSObject, UIApplicationDelegate{
     }
     
     //new addition for google drive api
-    func application2(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    /*func application2(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         GIDSignIn.sharedInstance.clientID = "315977733569-bhrn1k9pguf6g6tsje0kkad4qm7dsf0a.apps.googleusercontent.com"
         return true
-    }
+    }*/
 }

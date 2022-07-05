@@ -8,6 +8,7 @@
 import SwiftUI
 import Firebase
 import GoogleSignIn
+//import GoogleAPIClientForREST
 
 struct ContentView: View {
     @AppStorage("log_Status") var log_Status = false
@@ -180,7 +181,7 @@ struct CardView : View {
         HStack(spacing: 25){
             VStack(spacing: 12){
 
-                NavigationLink(destination: CameraPage(), label: {
+                NavigationLink(destination: QRGeneratorPage(), label: {
                     Image(systemName: "camera")
                         //.font(.title)
                         .font(.system(size: 90))
@@ -215,7 +216,7 @@ struct CardView : View {
                 })
                 
                 
-                Text("View Previous")
+                Text("Scan")
                     .foregroundColor(self.index == 0 ? .black : .black)
             }
             .padding(.horizontal, 5)

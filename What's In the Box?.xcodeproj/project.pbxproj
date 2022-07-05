@@ -19,6 +19,9 @@
 		A6447B5D28446F3600B4AE1B /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6447B5C28446F3500B4AE1B /* ImagePicker.swift */; };
 		A6447B5F284EF45200B4AE1B /* client_315977733569-bhrn1k9pguf6g6tsje0kkad4qm7dsf0a.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6447B5E284EF44E00B4AE1B /* client_315977733569-bhrn1k9pguf6g6tsje0kkad4qm7dsf0a.apps.googleusercontent.com.plist */; };
 		A6447B64284EFA4300B4AE1B /* GoogleAPIClientForRESTCore in Frameworks */ = {isa = PBXBuildFile; productRef = A6447B63284EFA4300B4AE1B /* GoogleAPIClientForRESTCore */; };
+		A6F8BA9F28737D7100274D14 /* QRGeneratorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F8BA9E28737D7000274D14 /* QRGeneratorPage.swift */; };
+		A6F8BAA12873A41C00274D14 /* QRLiteralGeneratorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F8BAA02873A41B00274D14 /* QRLiteralGeneratorPage.swift */; };
+		A6F8BAA32873B1A700274D14 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F8BAA22873B1A600274D14 /* ImageSaver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		A6447B5C28446F3500B4AE1B /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		A6447B5E284EF44E00B4AE1B /* client_315977733569-bhrn1k9pguf6g6tsje0kkad4qm7dsf0a.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_315977733569-bhrn1k9pguf6g6tsje0kkad4qm7dsf0a.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
 		A6447B65284EFE1300B4AE1B /* DrivePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivePage.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		A6F8BA9E28737D7000274D14 /* QRGeneratorPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRGeneratorPage.swift; sourceTree = "<group>"; };
+		A6F8BAA02873A41B00274D14 /* QRLiteralGeneratorPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRLiteralGeneratorPage.swift; sourceTree = "<group>"; };
+		A6F8BAA22873B1A600274D14 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				A6447B55283F218200B4AE1B /* LoginPage.swift */,
 				A6447B5A2841AA4400B4AE1B /* CameraPage.swift */,
 				A6447B65284EFE1300B4AE1B /* DrivePage.swift */,
+				A6F8BA9E28737D7000274D14 /* QRGeneratorPage.swift */,
+				A6F8BAA02873A41B00274D14 /* QRLiteralGeneratorPage.swift */,
+				A6F8BAA22873B1A600274D14 /* ImageSaver.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,8 +196,11 @@
 				A6447B40283F084D00B4AE1B /* ContentView.swift in Sources */,
 				A6447B5B2841AA4400B4AE1B /* CameraPage.swift in Sources */,
 				A6447B5D28446F3600B4AE1B /* ImagePicker.swift in Sources */,
+				A6F8BAA12873A41C00274D14 /* QRLiteralGeneratorPage.swift in Sources */,
 				A6447B56283F218200B4AE1B /* LoginPage.swift in Sources */,
 				A6447B3E283F084D00B4AE1B /* What_s_In_the_Box_App.swift in Sources */,
+				A6F8BA9F28737D7100274D14 /* QRGeneratorPage.swift in Sources */,
+				A6F8BAA32873B1A700274D14 /* ImageSaver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
